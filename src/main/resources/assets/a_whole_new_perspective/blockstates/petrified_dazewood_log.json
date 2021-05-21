@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "a_whole_new_perspective:block/petrified_dazewood_log"
+    },
+    "facing=north": {
+      "model": "a_whole_new_perspective:block/petrified_dazewood_log"
+    },
+    "facing=east": {
+      "model": "a_whole_new_perspective:block/petrified_dazewood_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "a_whole_new_perspective:block/petrified_dazewood_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "a_whole_new_perspective:block/petrified_dazewood_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "a_whole_new_perspective:block/petrified_dazewood_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Who are you?",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Who are you?",
+          "x": 141,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "I'm a human",
+          "onClick": {
+            "name": "ClickResponseButton"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "I'm a human",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "I'm a human",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "WasResponseButtonClicked"
+          },
+          "name": "I'm a human",
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "I know, but like, did Research Team Delta-6 send you?",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "WasResponseButtonClicked"
+          },
+          "name": "I know, but like, did Research Team Delta-6 send you?",
+          "x": 141,
+          "y": 125
+        }
+      }
+    ]
+  }
+}

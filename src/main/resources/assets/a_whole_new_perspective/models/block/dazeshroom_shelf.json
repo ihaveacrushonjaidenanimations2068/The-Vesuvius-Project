@@ -1,0 +1,9 @@
+{
+  "parent": "a_whole_new_perspective:custom/shelf_fungi",
+  "textures": {
+    "all": "a_whole_new_perspective:blocks/dazeshroom_shelf",
+    "particle": "a_whole_new_perspective:blocks/dazeshroom_shelf",
+    "0": "a_whole_new_perspective:blocks/dazeshroom_shelf",
+    "missing": "a_whole_new_perspective:blocks/dazeshroom_shelf"
+  }
+}

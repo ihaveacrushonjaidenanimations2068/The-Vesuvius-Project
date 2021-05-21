@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dazewood_leaves",
+        "1": "oneirodendron_log_side",
+        "2": "oneirodendron_log_top"
+      },
+      "name": "default"
+    }
+  }
+}

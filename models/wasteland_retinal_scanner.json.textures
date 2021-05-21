@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wasteland_retinal_scanner"
+      },
+      "name": "default"
+    }
+  }
+}

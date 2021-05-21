@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "orientable_block_test"
+      },
+      "name": "default"
+    },
+    "subvolite": {
+      "map": {
+        "0": "subvolite_crystal"
+      },
+      "name": "subvolite"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 13,
+  "_type": "structure",
+  "definition": {
+    "structure": "subvolite_geode",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 10000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 5,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": 30,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:Vividonia",
+      "CUSTOM:AncientVividonia"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:VividoniaStone"
+      }
+    ],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

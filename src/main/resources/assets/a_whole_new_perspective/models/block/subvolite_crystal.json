@@ -1,0 +1,8 @@
+{
+  "parent": "a_whole_new_perspective:custom/orientable_cross",
+  "textures": {
+    "all": "a_whole_new_perspective:blocks/subvolite_crystal",
+    "particle": "a_whole_new_perspective:blocks/subvolite_crystal",
+    "0": "a_whole_new_perspective:blocks/subvolite_crystal"
+  }
+}

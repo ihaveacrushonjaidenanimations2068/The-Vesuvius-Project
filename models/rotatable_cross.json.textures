@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "orientable_block_test"
+      },
+      "name": "default"
+    },
+    "nanosteel_crystal": {
+      "map": {
+        "0": "missing_texture"
+      },
+      "name": "nanosteel_crystal"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fridge_rusty"
+      },
+      "name": "default"
+    }
+  }
+}

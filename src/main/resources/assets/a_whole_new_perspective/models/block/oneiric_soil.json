@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "a_whole_new_perspective:blocks/new_oneirc_dirt_rev1",
+    "particle": "a_whole_new_perspective:blocks/new_oneirc_dirt_rev1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity.specimanfive.idle": {
+    "category": "master",
+    "subtitle": "subtitles.entity.specimanfive.idle",
+    "sounds": [
+      {
+        "name": "a_whole_new_perspective:stidle",
+        "stream": false
+      },
+      {
+        "name": "a_whole_new_perspective:stidlequestion",
+        "stream": false
+      },
+      {
+        "name": "a_whole_new_perspective:stidlestatuscheck",
+        "stream": false
+      },
+      {
+        "name": "a_whole_new_perspective:sttaunt",
+        "stream": false
+      }
+    ]
+  }
+}

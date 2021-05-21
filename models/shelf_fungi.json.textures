@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dazeshroom_shelf",
+        "missing": "dazeshroom_shelf"
+      },
+      "name": "default"
+    }
+  }
+}

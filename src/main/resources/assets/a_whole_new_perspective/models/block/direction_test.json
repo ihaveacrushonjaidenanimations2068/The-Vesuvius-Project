@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "a_whole_new_perspective:blocks/missing_texture",
+    "up": "a_whole_new_perspective:blocks/orientable_block_test",
+    "north": "a_whole_new_perspective:blocks/missing_texture",
+    "east": "a_whole_new_perspective:blocks/missing_texture",
+    "south": "a_whole_new_perspective:blocks/missing_texture",
+    "west": "a_whole_new_perspective:blocks/missing_texture",
+    "particle": "a_whole_new_perspective:blocks/missing_texture"
+  }
+}

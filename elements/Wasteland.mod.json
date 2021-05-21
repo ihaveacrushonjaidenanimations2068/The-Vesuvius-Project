@@ -1,0 +1,50 @@
+{
+  "_fv": 13,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:ShalamiteBlock"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:ForwardPortal"
+    },
+    "portalLuminance": 0.0,
+    "portalSound": {
+      "value": ""
+    },
+    "igniterName": "Forward-polarized Subvolite Crystal",
+    "igniterTab": {
+      "value": "CUSTOM:AWNPItems"
+    },
+    "texture": "subvolite_crystal_forward_polarity",
+    "portalTexture": "timeportal_forwards",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:DeadForest"
+      },
+      {
+        "value": "desert"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "airColor": {
+      "value": -13421773,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": true,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false
+  }
+}

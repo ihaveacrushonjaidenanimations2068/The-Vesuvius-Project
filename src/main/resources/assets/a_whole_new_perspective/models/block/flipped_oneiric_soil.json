@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "a_whole_new_perspective:blocks/oneiric_soil_flipped",
+    "particle": "a_whole_new_perspective:blocks/oneiric_soil_flipped"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "a_whole_new_perspective:block/wasteland_fridge"
+    },
+    "facing=east": {
+      "model": "a_whole_new_perspective:block/wasteland_fridge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "a_whole_new_perspective:block/wasteland_fridge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "a_whole_new_perspective:block/wasteland_fridge",
+      "y": 270
+    }
+  }
+}

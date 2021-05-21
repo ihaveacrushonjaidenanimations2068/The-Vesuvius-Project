@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "a_whole_new_perspective:blocks/new_oneirodendron_log_gtop",
+    "up": "a_whole_new_perspective:blocks/new_oneirodendron_log_gtop",
+    "north": "a_whole_new_perspective:blocks/new_oneirodendron_log_side",
+    "east": "a_whole_new_perspective:blocks/new_oneirodendron_log_side",
+    "south": "a_whole_new_perspective:blocks/new_oneirodendron_log_side",
+    "west": "a_whole_new_perspective:blocks/new_oneirodendron_log_side",
+    "particle": "a_whole_new_perspective:blocks/new_oneirodendron_log_gtop"
+  }
+}

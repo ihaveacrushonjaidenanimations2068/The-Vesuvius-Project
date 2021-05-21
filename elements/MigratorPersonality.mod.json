@@ -1,0 +1,64 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Migrator Personalities",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Migrator Personalities",
+          "x": 177,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Chatty",
+          "width": 145,
+          "height": 20,
+          "name": "Chatty",
+          "x": 141,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Indignant",
+          "width": 70,
+          "height": 20,
+          "name": "Indignant",
+          "x": 177,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Hostile",
+          "onClick": {
+            "name": "SetMigratorHostile"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Hostile",
+          "x": 186,
+          "y": 134
+        }
+      }
+    ]
+  }
+}

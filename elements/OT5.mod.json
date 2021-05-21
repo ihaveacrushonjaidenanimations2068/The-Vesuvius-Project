@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "structure",
+  "definition": {
+    "structure": "new_oneirodendron_tree",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 10000,
+    "minCountPerChunk": 10,
+    "maxCountPerChunk": 10,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:AncientVividonia"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:OneiricGrass"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:OneiricRainforest"
+      }
+    ],
+    "ignoreBlocks": "AIR"
+  }
+}

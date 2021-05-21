@@ -1,0 +1,1096 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "DazewoodLog",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dazewood_log"
+    },
+    {
+      "name": "DazeshroomShelf",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dazeshroom_shelf"
+    },
+    {
+      "name": "DazewoodLeaves",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dazewood_leaves"
+    },
+    {
+      "name": "OneiricGrass",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oneiric_grass"
+    },
+    {
+      "name": "PetrifiedOneiricSoil",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "petrified_oneiric_soil"
+    },
+    {
+      "name": "PetrifiedDazewoodLog",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "petrified_dazewood_log"
+    },
+    {
+      "name": "VividoniaStone",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vividonia_stone"
+    },
+    {
+      "name": "PetrifiedGrove",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "petrified_grove"
+    },
+    {
+      "name": "Vividonia",
+      "type": "dimension",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vividonia"
+    },
+    {
+      "name": "PetrifiedTreeFeature",
+      "type": "structure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "petrified_tree_feature"
+    },
+    {
+      "name": "PT2",
+      "type": "structure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pt_2"
+    },
+    {
+      "name": "PT3",
+      "type": "structure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pt_3"
+    },
+    {
+      "name": "PT4",
+      "type": "structure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pt_4"
+    },
+    {
+      "name": "PT5",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pt_5"
+    },
+    {
+      "name": "PT6",
+      "type": "structure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pt_6"
+    },
+    {
+      "name": "PT7",
+      "type": "structure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pt_7"
+    },
+    {
+      "name": "PT8",
+      "type": "structure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pt_8"
+    },
+    {
+      "name": "VividonianHuntermech",
+      "type": "mob",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vividonian_huntermech"
+    },
+    {
+      "name": "DirectionTest",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "direction_test"
+    },
+    {
+      "name": "DirectionTestRotatable",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "direction_test_rotatable"
+    },
+    {
+      "name": "DazedViperPlant",
+      "type": "mob",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dazed_viper_plant"
+    },
+    {
+      "name": "OneiricSoil",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oneiric_soil"
+    },
+    {
+      "name": "OneiricRainforest",
+      "type": "biome",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oneiric_rainforest"
+    },
+    {
+      "name": "AncientVividonia",
+      "type": "dimension",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancient_vividonia"
+    },
+    {
+      "name": "OneirodendronTreeFeature",
+      "type": "structure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oneirodendron_tree_feature"
+    },
+    {
+      "name": "OT2",
+      "type": "structure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ot_2"
+    },
+    {
+      "name": "OT3",
+      "type": "structure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ot_3"
+    },
+    {
+      "name": "OT4",
+      "type": "structure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ot_4"
+    },
+    {
+      "name": "OT5",
+      "type": "structure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ot_5"
+    },
+    {
+      "name": "SubvoliteCrystal",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subvolite_crystal"
+    },
+    {
+      "name": "SubvoliteCluster",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subvolite_cluster"
+    },
+    {
+      "name": "ErraticPetrifiedField",
+      "type": "biome",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "erratic_petrified_field"
+    },
+    {
+      "name": "FloatingGeodeFeatureOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "floating_geode_feature_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FloatingGeodeFeature",
+      "type": "structure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "floating_geode_feature"
+    },
+    {
+      "name": "FlippedOneiricGrass",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flipped_oneiric_grass"
+    },
+    {
+      "name": "FlippedOneiricSoil",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flipped_oneiric_soil"
+    },
+    {
+      "name": "SubvoliteGeodeFeature",
+      "type": "structure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subvolite_geode_feature"
+    },
+    {
+      "name": "OT6",
+      "type": "structure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ot_6"
+    },
+    {
+      "name": "OT7",
+      "type": "structure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ot_7"
+    },
+    {
+      "name": "OT8",
+      "type": "structure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ot_8"
+    },
+    {
+      "name": "OT9",
+      "type": "structure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ot_9"
+    },
+    {
+      "name": "OT10",
+      "type": "structure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ot_10"
+    },
+    {
+      "name": "PT9",
+      "type": "structure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pt_9"
+    },
+    {
+      "name": "PT10",
+      "type": "structure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pt_10"
+    },
+    {
+      "name": "PulseTurretProjectile",
+      "type": "gun",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pulse_turret_projectile"
+    },
+    {
+      "name": "PulseTurret",
+      "type": "mob",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pulse_turret"
+    },
+    {
+      "name": "SubvoliteShard",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subvolite_shard"
+    },
+    {
+      "name": "ShalamiteBlock",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shalamite_block"
+    },
+    {
+      "name": "DeadForest",
+      "type": "biome",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_forest"
+    },
+    {
+      "name": "Wasteland",
+      "type": "dimension",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wasteland"
+    },
+    {
+      "name": "ForwardPortal",
+      "type": "particle",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forward_portal"
+    },
+    {
+      "name": "BackwardPortal",
+      "type": "particle",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "backward_portal"
+    },
+    {
+      "name": "AWNPBlocks",
+      "type": "tab",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "awnp_blocks"
+    },
+    {
+      "name": "AWNPItems",
+      "type": "tab",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "awnp_items"
+    },
+    {
+      "name": "RustyIronBlock",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rusty_iron_block"
+    },
+    {
+      "name": "WastelandFridge",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wasteland_fridge"
+    },
+    {
+      "name": "AWNPProps",
+      "type": "tab",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "awnp_props"
+    },
+    {
+      "name": "RetinalScanner",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "retinal_scanner"
+    },
+    {
+      "name": "ResistanceConstruct",
+      "type": "mob",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "resistance_construct"
+    },
+    {
+      "name": "RustyIronBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rusty_iron_block_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AudiotapeProp01",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "audiotape_prop_01"
+    },
+    {
+      "name": "Audiotape01",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "audiotape_01"
+    },
+    {
+      "name": "AudiotapeProp01EntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "audiotape_prop_01_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WastelandBunker01",
+      "type": "structure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wasteland_bunker_01"
+    },
+    {
+      "name": "BlockConnectToGroundTest",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_connect_to_ground_test"
+    },
+    {
+      "name": "BlockConnectToGroundTestBlockAdded",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_connect_to_ground_test_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MigratorEnforcerDefault",
+      "type": "mob",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "migrator_enforcer_default"
+    },
+    {
+      "name": "EnforcerTripminePlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enforcer_tripmine_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnforcerTripmine",
+      "type": "mob",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enforcer_tripmine"
+    },
+    {
+      "name": "TripmineItemBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tripmine_item_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TripmineItem",
+      "type": "gun",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tripmine_item"
+    },
+    {
+      "name": "Specimen5",
+      "type": "mob",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "specimen_5"
+    },
+    {
+      "name": "GeoxylonLog",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "geoxylon_log"
+    },
+    {
+      "name": "Migrator",
+      "type": "mob",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "migrator"
+    },
+    {
+      "name": "Braincube",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "braincube"
+    },
+    {
+      "name": "IsMigratorHostile",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "is_migrator_hostile",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IsMigratorIndignant",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "is_migrator_indignant",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MigratorOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "migrator_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MigratorChatInt",
+      "type": "gui",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "migrator_chat_int"
+    },
+    {
+      "name": "WasResponseButtonClicked",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "was_response_button_clicked",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ClickResponseButton",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "click_response_button",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DevControls",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dev_controls"
+    },
+    {
+      "name": "DevCont",
+      "type": "gui",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dev_cont"
+    },
+    {
+      "name": "MigratorPersonality",
+      "type": "gui",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "migrator_personality"
+    },
+    {
+      "name": "SetMigratorHostile",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "set_migrator_hostile",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenMigP",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_mig_p",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NYIMigP",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nyi_mig_p",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Umoras",
+      "type": "mob",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "umoras"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "HuntermechKilled",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "migratorPersonalityType",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "responseSelected",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "res_select_2",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "entity.specimanfive.idle",
+      "files": [
+        "stidle",
+        "stidlequestion",
+        "stidlestatuscheck",
+        "sttaunt"
+      ],
+      "category": "master",
+      "subtitle": "Speciman screeches"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.a_whole_new_perspective.tripmine_item": "Tripmine Item",
+      "biome.a_whole_new_perspective.oneiric_rainforest": "Oneiric Rainforest",
+      "block.a_whole_new_perspective.oneiric_soil": "Oneiric Soil",
+      "entity.a_whole_new_perspective.vividonian_huntermech": "Vividonian Huntermech",
+      "item.a_whole_new_perspective.umoras_spawn_egg": "Umoras Spawn Egg",
+      "item.a_whole_new_perspective.enforcer_tripmine_spawn_egg": "Enforcer Tripmine Spawn Egg",
+      "entity.a_whole_new_perspective.dazed_viper_plant": "Dazed Viper Plant",
+      "itemGroup.tabawnp_props": "AWNP Props",
+      "block.a_whole_new_perspective.rusty_iron_block": "Rusty Iron Block",
+      "entity.a_whole_new_perspective.migrator": "Migrator",
+      "block.a_whole_new_perspective.geoxylon_log": "Geoxylon Log",
+      "item.a_whole_new_perspective.vividonia": "Vividonia Portal Igniter",
+      "block.a_whole_new_perspective.dazeshroom_shelf": "Dazeshroom Shelf",
+      "item.a_whole_new_perspective.resistance_construct_spawn_egg": "Resistance Construct Spawn Egg",
+      "biome.a_whole_new_perspective.erratic_petrified_field": "Erratic Petrified Field",
+      "item.a_whole_new_perspective.dev_controls": "Dev Controls",
+      "block.a_whole_new_perspective.wasteland_fridge": "Wasteland Fridge",
+      "entity.a_whole_new_perspective.specimen_5": "Specimen 5",
+      "item.a_whole_new_perspective.vividonian_huntermech_spawn_egg": "Vividonian Huntermech Spawn Egg",
+      "item.a_whole_new_perspective.vividonian_huntermech": "Vividonian Huntermech Spawn Egg",
+      "entity.a_whole_new_perspective.resistance_construct": "Resistance Construct",
+      "block.a_whole_new_perspective.audiotape_prop_01": "Audiotape Prop ",
+      "block.a_whole_new_perspective.block_connect_to_ground_test": "Block Connect To Ground Test",
+      "block.a_whole_new_perspective.petrified_oneiric_soil": "Petrified Oneiric Soil",
+      "block.a_whole_new_perspective.dazewood_leaves": "Dazewood Leaves",
+      "block.a_whole_new_perspective.subvolite_cluster": "Subvolite Cluster",
+      "block.a_whole_new_perspective.shalamite_block": "Shalamite Block",
+      "block.a_whole_new_perspective.vividonia_stone": "Vividonia Stone",
+      "item.a_whole_new_perspective.ancient_vividonia": "Backward-polarized Subvolite Crystal",
+      "block.a_whole_new_perspective.flipped_oneiric_grass": "Flipped Oneiric Grass",
+      "item.a_whole_new_perspective.audiotape_01": "Audiotape ",
+      "block.a_whole_new_perspective.petrified_dazewood_log": "Petrified Dazewood Log",
+      "block.a_whole_new_perspective.direction_test": "Direction Test",
+      "item.a_whole_new_perspective.subvolite_shard": "Subvolite Shard",
+      "itemGroup.tabawnp_items": "AWNP Items",
+      "block.a_whole_new_perspective.oneiric_grass": "Oneiric Grass",
+      "item.a_whole_new_perspective.pulse_turret_projectile": "Pulse Turret Projectile",
+      "item.a_whole_new_perspective.dazed_viper_plant_spawn_egg": "Dazed Viper Plant Spawn Egg",
+      "entity.a_whole_new_perspective.enforcer_tripmine": "Enforcer Tripmine",
+      "item.a_whole_new_perspective.migrator_spawn_egg": "Migrator Spawn Egg",
+      "item.a_whole_new_perspective.pulse_turret_spawn_egg": "Pulse Turret Spawn Egg",
+      "block.a_whole_new_perspective.flipped_oneiric_soil": "Flipped Oneiric Soil",
+      "item.a_whole_new_perspective.migrator_enforcer_default_spawn_egg": "Migrator Enforcer Default Spawn Egg",
+      "entity.a_whole_new_perspective.umoras": "Umoras",
+      "biome.a_whole_new_perspective.dead_forest": "Dead Forest",
+      "block.a_whole_new_perspective.direction_test_rotatable": "Direction Test [Rotatable]",
+      "entity.a_whole_new_perspective.pulse_turret": "Pulse Turret",
+      "block.a_whole_new_perspective.braincube": "Braincube",
+      "biome.a_whole_new_perspective.petrified_grove": "Petrified Grove",
+      "item.a_whole_new_perspective.wasteland": "Forward-polarized Subvolite Crystal",
+      "block.a_whole_new_perspective.subvolite_crystal": "Subvolite Crystal",
+      "entity.a_whole_new_perspective.migrator_enforcer_default": "Migrator Enforcer Default",
+      "subtitles.entity.specimanfive.idle": "Speciman screeches",
+      "itemGroup.tabawnp_blocks": "AWNP Blocks",
+      "block.a_whole_new_perspective.dazewood_log": "Dazewood Log",
+      "item.a_whole_new_perspective.dazed_viper_plant": "Dazed Viper Plant Spawn Egg",
+      "block.a_whole_new_perspective.retinal_scanner": "Retinal Scanner",
+      "item.a_whole_new_perspective.specimen_5_spawn_egg": "Specimen 5 Spawn Egg"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "a_whole_new_perspective",
+    "modName": "The Vesuvius Project",
+    "version": "2.5.3-indev",
+    "author": "AJ, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.varahunter.awholenewperspective",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

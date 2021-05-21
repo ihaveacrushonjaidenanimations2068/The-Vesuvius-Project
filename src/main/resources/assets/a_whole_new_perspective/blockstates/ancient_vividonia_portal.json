@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "a_whole_new_perspective:block/ancient_vividonia_portal_ew"
+    },
+    "axis=x": {
+      "model": "a_whole_new_perspective:block/ancient_vividonia_portal_ns"
+    }
+  }
+}
