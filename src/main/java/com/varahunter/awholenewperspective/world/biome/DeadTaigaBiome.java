@@ -41,11 +41,11 @@ import com.varahunter.awholenewperspective.AWholeNewPerspectiveModElements;
 import com.google.common.collect.Lists;
 
 @AWholeNewPerspectiveModElements.ModElement.Tag
-public class DeadForestBiome extends AWholeNewPerspectiveModElements.ModElement {
-	@ObjectHolder("a_whole_new_perspective:dead_forest")
+public class DeadTaigaBiome extends AWholeNewPerspectiveModElements.ModElement {
+	@ObjectHolder("a_whole_new_perspective:dead_taiga")
 	public static final CustomBiome biome = null;
-	public DeadForestBiome(AWholeNewPerspectiveModElements instance) {
-		super(instance, 48);
+	public DeadTaigaBiome(AWholeNewPerspectiveModElements instance) {
+		super(instance, 104);
 	}
 
 	@Override
@@ -62,7 +62,7 @@ public class DeadForestBiome extends AWholeNewPerspectiveModElements.ModElement 
 					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.COARSE_DIRT.getDefaultState(),
 							Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
-			setRegistryName("dead_forest");
+			setRegistryName("dead_taiga");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);
 			DefaultBiomeFeatures.addStructures(this);
@@ -71,7 +71,7 @@ public class DeadForestBiome extends AWholeNewPerspectiveModElements.ModElement 
 					.withPlacement(Placement.TOP_SOLID_HEIGHTMAP.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 					new CustomTreeFeature()
-							.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.OAK_LOG.getDefaultState()),
+							.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.SPRUCE_LOG.getDefaultState()),
 									new SimpleBlockStateProvider(Blocks.AIR.getDefaultState()))).baseHeight(5)
 											.setSapling((net.minecraftforge.common.IPlantable) Blocks.JUNGLE_SAPLING).build())
 							.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(3, 0.1F, 1))));
@@ -89,14 +89,8 @@ public class DeadForestBiome extends AWholeNewPerspectiveModElements.ModElement 
 
 		@OnlyIn(Dist.CLIENT)
 		@Override
-		public int getGrassColor(double posX, double posZ) {
-			return -3355648;
-		}
-
-		@OnlyIn(Dist.CLIENT)
-		@Override
 		public int getSkyColor() {
-			return -16777216;
+			return -16737997;
 		}
 	}
 
@@ -164,7 +158,7 @@ public class DeadForestBiome extends AWholeNewPerspectiveModElements.ModElement 
 						for (int genh = 0; genh < height; genh++) {
 							BlockPos genhPos = position.up(genh);
 							state = world.getBlockState(genhPos);
-							setTreeBlockState(changedBlocks, world, genhPos, Blocks.OAK_LOG.getDefaultState(), bbox);
+							setTreeBlockState(changedBlocks, world, genhPos, Blocks.SPRUCE_LOG.getDefaultState(), bbox);
 							if (state.getBlock().isAir(state, world, genhPos) || state.getMaterial().blocksMovement() || state.isIn(BlockTags.LEAVES)
 									|| state.getBlock() == Blocks.AIR.getDefaultState().getBlock()
 									|| state.getBlock() == Blocks.AIR.getDefaultState().getBlock()) {
@@ -201,7 +195,7 @@ public class DeadForestBiome extends AWholeNewPerspectiveModElements.ModElement 
 		}
 
 		private boolean canGrowInto(Block blockType) {
-			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == Blocks.OAK_LOG.getDefaultState().getBlock()
+			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == Blocks.SPRUCE_LOG.getDefaultState().getBlock()
 					|| blockType == Blocks.AIR.getDefaultState().getBlock() || blockType == Blocks.COARSE_DIRT.getDefaultState().getBlock()
 					|| blockType == Blocks.DIRT.getDefaultState().getBlock();
 		}

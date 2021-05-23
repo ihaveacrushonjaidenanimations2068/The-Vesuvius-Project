@@ -18,13 +18,16 @@
     },
     "texture": "subvolite_crystal_forward_polarity",
     "portalTexture": "timeportal_forwards",
-    "enablePortal": true,
+    "enablePortal": false,
     "biomesInDimension": [
       {
         "value": "CUSTOM:DeadForest"
       },
       {
         "value": "desert"
+      },
+      {
+        "value": "CUSTOM:DeadTaiga"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -41,10 +44,10 @@
     "canRespawnHere": false,
     "hasFog": false,
     "hasWeather": true,
-    "isDark": false,
+    "isDark": true,
     "doesWaterVaporize": true,
-    "sleepResult": "ALLOW",
-    "hasSkyLight": true,
+    "sleepResult": "DENY",
+    "hasSkyLight": false,
     "imitateOverworldBehaviour": false
   }
 }

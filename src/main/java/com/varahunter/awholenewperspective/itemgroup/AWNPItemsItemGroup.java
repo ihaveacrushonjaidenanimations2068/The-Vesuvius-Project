@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import com.varahunter.awholenewperspective.item.SubvoliteShardItem;
+import com.varahunter.awholenewperspective.item.UnrefinedAmygdallyteItem;
 import com.varahunter.awholenewperspective.AWholeNewPerspectiveModElements;
 
 @AWholeNewPerspectiveModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class AWNPItemsItemGroup extends AWholeNewPerspectiveModElements.ModEleme
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(SubvoliteShardItem.block, (int) (1));
+				return new ItemStack(UnrefinedAmygdallyteItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

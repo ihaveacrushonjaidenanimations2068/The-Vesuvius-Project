@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Umoraas",
     "mobLabel": "",
-    "mobModelName": "ModelMigratorDefault",
+    "mobModelName": "ModelUmoraasSitting",
     "mobModelTexture": "umoraas_fs.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,

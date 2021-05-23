@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "a_whole_new_perspective:items/subvolite_crystal_backward_polarity"
-  }
-}

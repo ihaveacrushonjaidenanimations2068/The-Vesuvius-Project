@@ -1,9 +1,6 @@
 package com.varahunter.awholenewperspective.procedures;
 
 import net.minecraftforge.fml.network.NetworkHooks;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.player.PlayerEvent;
-import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.IWorld;
 import net.minecraft.util.text.StringTextComponent;
@@ -18,7 +15,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
 import java.util.Map;
-import java.util.HashMap;
 
 import io.netty.buffer.Unpooled;
 
@@ -29,7 +25,6 @@ import com.varahunter.awholenewperspective.AWholeNewPerspectiveModElements;
 public class OpenComfPromptProcedure extends AWholeNewPerspectiveModElements.ModElement {
 	public OpenComfPromptProcedure(AWholeNewPerspectiveModElements instance) {
 		super(instance, 100);
-		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -80,18 +75,5 @@ public class OpenComfPromptProcedure extends AWholeNewPerspectiveModElements.Mod
 				}, _bpos);
 			}
 		}
-	}
-
-	@SubscribeEvent
-	public void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
-		Entity entity = event.getPlayer();
-		Map<String, Object> dependencies = new HashMap<>();
-		dependencies.put("x", entity.getPosX());
-		dependencies.put("y", entity.getPosY());
-		dependencies.put("z", entity.getPosZ());
-		dependencies.put("world", entity.world);
-		dependencies.put("entity", entity);
-		dependencies.put("event", event);
-		this.executeProcedure(dependencies);
 	}
 }
