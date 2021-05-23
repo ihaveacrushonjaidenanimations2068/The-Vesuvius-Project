@@ -154,9 +154,9 @@ public class MigratorChatIntGui extends AWholeNewPerspectiveModElements.ModEleme
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
 			this.font.drawString("Who are you?", 15, 16, -12829636);
-			if (WasResponseButtonClickedProcedure.executeProcedure(ImmutableMap.of()))
+			if (WasResponseButtonClickedProcedure.executeProcedure(ImmutableMap.of("world", world)))
 				this.font.drawString("I'm a human", 15, 70, -12829636);
-			if (WasResponseButtonClickedProcedure.executeProcedure(ImmutableMap.of()))
+			if (WasResponseButtonClickedProcedure.executeProcedure(ImmutableMap.of("world", world)))
 				this.font.drawString("I know, but like, did Research Team Delta-6 send you?", 15, 88, -12829636);
 		}
 
@@ -266,6 +266,7 @@ public class MigratorChatIntGui extends AWholeNewPerspectiveModElements.ModEleme
 		if (buttonID == 0) {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("world", world);
 				ClickResponseButtonProcedure.executeProcedure($_dependencies);
 			}
 		}

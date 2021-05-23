@@ -8,7 +8,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import com.varahunter.awholenewperspective.itemgroup.AWNPItemsItemGroup;
 import com.varahunter.awholenewperspective.AWholeNewPerspectiveModElements;
 
 @AWholeNewPerspectiveModElements.ModElement.Tag
@@ -25,7 +24,7 @@ public class SubvoliteShardItem extends AWholeNewPerspectiveModElements.ModEleme
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(AWNPItemsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(null).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("subvolite_shard");
 		}
 

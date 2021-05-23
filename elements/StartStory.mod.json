@@ -3,6 +3,9 @@
   "_type": "command",
   "definition": {
     "commandName": "startstory",
-    "permissionLevel": 2
+    "permissionLevel": 2,
+    "onCommandExecuted": {
+      "name": "OpenComfPrompt"
+    }
   }
 }

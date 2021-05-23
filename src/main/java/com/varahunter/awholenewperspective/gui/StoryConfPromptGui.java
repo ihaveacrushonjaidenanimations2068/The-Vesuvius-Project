@@ -33,6 +33,8 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+import com.varahunter.awholenewperspective.procedures.StoryDeclineProcedure;
+import com.varahunter.awholenewperspective.procedures.StoryAcceptProcedure;
 import com.varahunter.awholenewperspective.AWholeNewPerspectiveModElements;
 import com.varahunter.awholenewperspective.AWholeNewPerspectiveMod;
 
@@ -256,6 +258,24 @@ public class StoryConfPromptGui extends AWholeNewPerspectiveModElements.ModEleme
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				StoryAcceptProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				StoryDeclineProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {

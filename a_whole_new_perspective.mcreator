@@ -1123,6 +1123,98 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "plasma_pistol_tile"
+    },
+    {
+      "name": "StartingChestLoot",
+      "type": "loottable",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "starting_chest_loot"
+    },
+    {
+      "name": "StoryAccept",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "story_accept",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenComfPrompt",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_comf_prompt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoryDecline",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "story_decline",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1171,7 +1263,7 @@
       "block.a_whole_new_perspective.oneiric_soil": "Oneiric Soil",
       "biome.a_whole_new_perspective.oneiric_rainforest": "Oneiric Rainforest",
       "entity.a_whole_new_perspective.vividonian_huntermech": "Vividonian Huntermech",
-      "item.a_whole_new_perspective.umoras_spawn_egg": "Umoras Spawn Egg",
+      "item.a_whole_new_perspective.umoras_spawn_egg": "Umoraas Spawn Egg",
       "item.a_whole_new_perspective.enforcer_tripmine_spawn_egg": "Enforcer Tripmine Spawn Egg",
       "entity.a_whole_new_perspective.dazed_viper_plant": "Dazed Viper Plant",
       "block.a_whole_new_perspective.rusty_iron_block": "Rusty Iron Block",
@@ -1213,7 +1305,7 @@
       "item.a_whole_new_perspective.pulse_turret_spawn_egg": "Pulse Turret Spawn Egg",
       "block.a_whole_new_perspective.flipped_oneiric_soil": "Flipped Oneiric Soil",
       "item.a_whole_new_perspective.migrator_enforcer_default_spawn_egg": "Migrator Enforcer Default Spawn Egg",
-      "entity.a_whole_new_perspective.umoras": "Umoras",
+      "entity.a_whole_new_perspective.umoras": "Umoraas",
       "biome.a_whole_new_perspective.dead_forest": "Dead Forest",
       "block.a_whole_new_perspective.plasma_pistol_tile": "Plasma Pistol ",
       "block.a_whole_new_perspective.direction_test_rotatable": "Direction Test [Rotatable]",

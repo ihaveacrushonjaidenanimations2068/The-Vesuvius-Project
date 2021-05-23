@@ -18,9 +18,6 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
-import net.minecraft.item.SpawnEggItem;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
@@ -56,8 +53,6 @@ public class VividonianHuntermechEntity extends AWholeNewPerspectiveModElements.
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.4f, 3.1f)).build("vividonian_huntermech")
 						.setRegistryName("vividonian_huntermech");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -6750055, -65281, new Item.Properties().group(ItemGroup.MISC))
-				.setRegistryName("vividonian_huntermech_spawn_egg"));
 	}
 
 	@SubscribeEvent

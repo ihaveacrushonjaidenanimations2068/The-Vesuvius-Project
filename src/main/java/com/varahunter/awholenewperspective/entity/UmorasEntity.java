@@ -75,7 +75,7 @@ public class UmorasEntity extends AWholeNewPerspectiveModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 3.5f)).build("umoras")
 						.setRegistryName("umoras");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -10066330, -16724737, new Item.Properties().group(ItemGroup.MISC))
+		elements.items.add(() -> new SpawnEggItem(entity, -16777012, -16724737, new Item.Properties().group(ItemGroup.MISC))
 				.setRegistryName("umoras_spawn_egg"));
 	}
 
@@ -86,7 +86,7 @@ public class UmorasEntity extends AWholeNewPerspectiveModElements.ModElement {
 			return new MobRenderer(renderManager, new ModelMigratorDefault(), 0.5f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("a_whole_new_perspective:textures/migrator_c_detail.png");
+					return new ResourceLocation("a_whole_new_perspective:textures/umoraas_fs.png");
 				}
 			};
 		});
@@ -176,7 +176,7 @@ public class UmorasEntity extends AWholeNewPerspectiveModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) sourceentity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Umoras");
+						return new StringTextComponent("Umoraas");
 					}
 
 					@Override

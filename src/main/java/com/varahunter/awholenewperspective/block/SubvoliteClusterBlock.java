@@ -30,7 +30,6 @@ import java.util.Collections;
 
 import com.varahunter.awholenewperspective.world.dimension.VividoniaDimension;
 import com.varahunter.awholenewperspective.world.dimension.AncientVividoniaDimension;
-import com.varahunter.awholenewperspective.itemgroup.AWNPBlocksItemGroup;
 import com.varahunter.awholenewperspective.AWholeNewPerspectiveModElements;
 
 @AWholeNewPerspectiveModElements.ModElement.Tag
@@ -44,7 +43,7 @@ public class SubvoliteClusterBlock extends AWholeNewPerspectiveModElements.ModEl
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(AWNPBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

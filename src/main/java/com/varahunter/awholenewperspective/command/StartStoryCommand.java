@@ -9,9 +9,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.command.Commands;
 import net.minecraft.command.CommandSource;
 
+import java.util.Map;
 import java.util.HashMap;
 import java.util.Arrays;
 
+import com.varahunter.awholenewperspective.procedures.OpenComfPromptProcedure;
 import com.varahunter.awholenewperspective.AWholeNewPerspectiveModElements;
 
 import com.mojang.brigadier.context.CommandContext;
@@ -31,7 +33,7 @@ public class StartStoryCommand extends AWholeNewPerspectiveModElements.ModElemen
 
 	private LiteralArgumentBuilder<CommandSource> customCommand() {
 		return LiteralArgumentBuilder.<CommandSource>literal("startstory").requires(s -> s.hasPermissionLevel(2))
-				.then(Commands.argument("arguments", StringArgumentType.greedyString()));
+				.then(Commands.argument("arguments", StringArgumentType.greedyString()).executes(this::execute)).executes(this::execute);
 	}
 
 	private int execute(CommandContext<CommandSource> ctx) {
@@ -49,6 +51,15 @@ public class StartStoryCommand extends AWholeNewPerspectiveModElements.ModElemen
 				cmdparams.put(Integer.toString(index[0]), param);
 			index[0]++;
 		});
+		{
+			Map<String, Object> $_dependencies = new HashMap<>();
+			$_dependencies.put("entity", entity);
+			$_dependencies.put("x", x);
+			$_dependencies.put("y", y);
+			$_dependencies.put("z", z);
+			$_dependencies.put("world", world);
+			OpenComfPromptProcedure.executeProcedure($_dependencies);
+		}
 		return 0;
 	}
 }

@@ -53,6 +53,9 @@
         "type": "button",
         "data": {
           "text": "Yes",
+          "onClick": {
+            "name": "StoryAccept"
+          },
           "width": 40,
           "height": 20,
           "name": "Yes",
@@ -64,6 +67,9 @@
         "type": "button",
         "data": {
           "text": "No",
+          "onClick": {
+            "name": "StoryDecline"
+          },
           "width": 35,
           "height": 20,
           "name": "No",

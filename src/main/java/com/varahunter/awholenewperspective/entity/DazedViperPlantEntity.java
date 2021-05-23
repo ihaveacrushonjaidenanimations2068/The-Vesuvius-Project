@@ -18,9 +18,6 @@ import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
-import net.minecraft.item.SpawnEggItem;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
@@ -55,8 +52,6 @@ public class DazedViperPlantEntity extends AWholeNewPerspectiveModElements.ModEl
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("dazed_viper_plant")
 						.setRegistryName("dazed_viper_plant");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -6750055, -65281, new Item.Properties().group(ItemGroup.MISC))
-				.setRegistryName("dazed_viper_plant_spawn_egg"));
 	}
 
 	@Override
