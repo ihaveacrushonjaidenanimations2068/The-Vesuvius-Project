@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "a_whole_new_perspective:block/tc_flooring_slab"
+    },
+    "type=top": {
+      "model": "a_whole_new_perspective:block/tc_flooring_slab_top"
+    },
+    "type=double": {
+      "model": "a_whole_new_perspective:block/tc_flooring_slab_full"
+    }
+  }
+}

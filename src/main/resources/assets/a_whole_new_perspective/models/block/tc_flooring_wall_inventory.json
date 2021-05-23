@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "a_whole_new_perspective:blocks/tc_flooring_fs",
+    "particle": "a_whole_new_perspective:blocks/tc_flooring_fs"
+  }
+}

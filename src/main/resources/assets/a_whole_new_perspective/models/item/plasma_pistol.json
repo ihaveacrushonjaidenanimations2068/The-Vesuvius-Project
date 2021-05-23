@@ -1,0 +1,7 @@
+{
+  "parent": "a_whole_new_perspective:custom/v_plasmapistol",
+  "textures": {
+    "0": "a_whole_new_perspective:blocks/v_plasmapistol",
+    "particle": "a_whole_new_perspective:items/missing_texture"
+  }
+}

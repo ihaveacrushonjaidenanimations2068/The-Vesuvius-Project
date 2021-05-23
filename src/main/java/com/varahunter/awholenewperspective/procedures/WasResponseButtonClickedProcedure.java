@@ -1,5 +1,7 @@
 package com.varahunter.awholenewperspective.procedures;
 
+import net.minecraft.world.IWorld;
+
 import java.util.Map;
 
 import com.varahunter.awholenewperspective.AWholeNewPerspectiveModVariables;
@@ -12,6 +14,12 @@ public class WasResponseButtonClickedProcedure extends AWholeNewPerspectiveModEl
 	}
 
 	public static boolean executeProcedure(Map<String, Object> dependencies) {
-		return ((AWholeNewPerspectiveModVariables.responseSelected) == (true));
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure WasResponseButtonClicked!");
+			return false;
+		}
+		IWorld world = (IWorld) dependencies.get("world");
+		return ((AWholeNewPerspectiveModVariables.MapVariables.get(world).responseSelected) == (true));
 	}
 }

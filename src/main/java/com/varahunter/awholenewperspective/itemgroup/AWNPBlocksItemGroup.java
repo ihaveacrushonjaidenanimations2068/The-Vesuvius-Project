@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import com.varahunter.awholenewperspective.block.OneiricGrassBlock;
+import com.varahunter.awholenewperspective.block.RustyIronBlockBlock;
 import com.varahunter.awholenewperspective.AWholeNewPerspectiveModElements;
 
 @AWholeNewPerspectiveModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class AWNPBlocksItemGroup extends AWholeNewPerspectiveModElements.ModElem
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(OneiricGrassBlock.block, (int) (1));
+				return new ItemStack(RustyIronBlockBlock.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)
