@@ -48,6 +48,10 @@ public class AWholeNewPerspectiveModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public AWholeNewPerspectiveModElements() {
+		sounds.put(new ResourceLocation("a_whole_new_perspective", "record_wow"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("a_whole_new_perspective", "record_wow")));
+		sounds.put(new ResourceLocation("a_whole_new_perspective", "tape1"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("a_whole_new_perspective", "tape1")));
 		sounds.put(new ResourceLocation("a_whole_new_perspective", "entity.specimanfive.idle"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("a_whole_new_perspective", "entity.specimanfive.idle")));
 		try {

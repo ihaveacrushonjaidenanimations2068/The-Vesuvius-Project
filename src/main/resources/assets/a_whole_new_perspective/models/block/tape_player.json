@@ -1,0 +1,10 @@
+{
+  "parent": "a_whole_new_perspective:custom/tape_player",
+  "textures": {
+    "all": "a_whole_new_perspective:blocks/oak_planks",
+    "particle": "a_whole_new_perspective:blocks/oak_planks",
+    "0": "a_whole_new_perspective:blocks/oak_log",
+    "1": "a_whole_new_perspective:blocks/oak_planks",
+    "2": "a_whole_new_perspective:blocks/tape_player"
+  }
+}

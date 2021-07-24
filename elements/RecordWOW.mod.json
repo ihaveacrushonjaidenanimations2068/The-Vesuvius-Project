@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "record_wow",
+    "name": "Dirty Record",
+    "description": "??? - What Once Was",
+    "creativeTab": {
+      "value": "CUSTOM:AWNPItems"
+    },
+    "music": {
+      "value": "CUSTOM:record_wow"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

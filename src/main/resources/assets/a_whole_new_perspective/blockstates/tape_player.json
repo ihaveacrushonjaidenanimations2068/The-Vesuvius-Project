@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "a_whole_new_perspective:block/tape_player"
+    },
+    "facing=east": {
+      "model": "a_whole_new_perspective:block/tape_player",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "a_whole_new_perspective:block/tape_player",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "a_whole_new_perspective:block/tape_player",
+      "y": 270
+    }
+  }
+}

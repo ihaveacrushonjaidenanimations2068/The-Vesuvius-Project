@@ -2,15 +2,15 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "missing_texture",
+    "texture": "oak_planks",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "geometric_log:default",
-    "rotationMode": 5,
+    "customModelName": "tape_player:default",
+    "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": true,
     "itemTexture": "",
@@ -24,7 +24,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Lumivine Stem",
+    "name": "Tape Player",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -33,7 +33,7 @@
     "creativeTab": {
       "value": "CUSTOM:AWNPBlocks"
     },
-    "destroyTool": "axe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -45,7 +45,7 @@
     "canProvidePower": false,
     "lightOpacity": 0,
     "material": {
-      "value": "WOOD"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -63,7 +63,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "METAL"
     },
     "luminance": 0.0,
     "unbreakable": false,

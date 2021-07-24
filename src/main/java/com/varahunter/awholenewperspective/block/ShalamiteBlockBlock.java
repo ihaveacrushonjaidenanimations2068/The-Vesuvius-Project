@@ -15,6 +15,7 @@ import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
 
+import com.varahunter.awholenewperspective.itemgroup.AWNPBlocksItemGroup;
 import com.varahunter.awholenewperspective.AWholeNewPerspectiveModElements;
 
 @AWholeNewPerspectiveModElements.ModElement.Tag
@@ -28,11 +29,11 @@ public class ShalamiteBlockBlock extends AWholeNewPerspectiveModElements.ModElem
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(AWNPBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.EARTH).sound(SoundType.SLIME).hardnessAndResistance(1f, 10f).lightValue(0));
 			setRegistryName("shalamite_block");
 		}
 

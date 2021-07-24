@@ -1251,6 +1251,71 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "unrefined_amygdallyte"
+    },
+    {
+      "name": "JuvenileTreentacle",
+      "type": "mob",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "juvenile_treentacle"
+    },
+    {
+      "name": "Ambulatory",
+      "type": "mob",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ambulatory"
+    },
+    {
+      "name": "TapePlayer",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tape_player"
+    },
+    {
+      "name": "Audiotape01RightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "audiotape_01_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecordWOW",
+      "type": "musicdisc",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "record_wow"
     }
   ],
   "variable_elements": [
@@ -1281,6 +1346,22 @@
   ],
   "sound_elements": [
     {
+      "name": "record_wow",
+      "files": [
+        "record_whatoncewas"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "tape1",
+      "files": [
+        "tape1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
       "name": "entity.specimanfive.idle",
       "files": [
         "stidle",
@@ -1296,8 +1377,9 @@
     "en_us": {
       "item.a_whole_new_perspective.tripmine_item": "Tripmine Item",
       "block.a_whole_new_perspective.training_course_flooring": "Training Course Floor",
-      "block.a_whole_new_perspective.oneiric_soil": "Oneiric Soil",
+      "block.a_whole_new_perspective.tape_player": "Tape Player",
       "biome.a_whole_new_perspective.oneiric_rainforest": "Oneiric Rainforest",
+      "block.a_whole_new_perspective.oneiric_soil": "Oneiric Soil",
       "block.a_whole_new_perspective.amygdallyte_ore": "Amygdallyte Ore",
       "entity.a_whole_new_perspective.vividonian_huntermech": "Vividonian Huntermech",
       "item.a_whole_new_perspective.umoras_spawn_egg": "Umoraas Spawn Egg",
@@ -1306,7 +1388,7 @@
       "block.a_whole_new_perspective.rusty_iron_block": "Rusty Iron Block",
       "itemGroup.tabawnp_props": "AWNP Props",
       "entity.a_whole_new_perspective.migrator": "Migrator",
-      "block.a_whole_new_perspective.geoxylon_log": "Geoxylon Log",
+      "block.a_whole_new_perspective.geoxylon_log": "Lumivine Stem",
       "biome.a_whole_new_perspective.dead_taiga": "Dead Taiga",
       "block.a_whole_new_perspective.dazeshroom_shelf": "Dazeshroom Shelf",
       "item.a_whole_new_perspective.vividonia": "Vividonia Portal Igniter",
@@ -1318,15 +1400,20 @@
       "entity.a_whole_new_perspective.specimen_5": "Specimen 5",
       "item.a_whole_new_perspective.vividonian_huntermech_spawn_egg": "Vividonian Huntermech Spawn Egg",
       "block.a_whole_new_perspective.training_course_wall_bottom": "Training Course Wall",
+      "subtitles.tape1": "",
       "block.a_whole_new_perspective.specked_soil": "Speckled Soil",
+      "item.a_whole_new_perspective.juvenile_treentacle_spawn_egg": "Lumivine Spawn Egg",
+      "item.a_whole_new_perspective.ambulatory_spawn_egg": "Ambulatory Spawn Egg",
       "item.a_whole_new_perspective.vividonian_huntermech": "Vividonian Huntermech Spawn Egg",
       "entity.a_whole_new_perspective.resistance_construct": "Resistance Construct",
       "block.a_whole_new_perspective.audiotape_prop_01": "Audiotape Prop ",
+      "item.a_whole_new_perspective.record_wow": "Dirty Record",
       "block.a_whole_new_perspective.block_connect_to_ground_test": "Block Connect To Ground Test",
       "block.a_whole_new_perspective.petrified_oneiric_soil": "Petrified Oneiric Soil",
       "block.a_whole_new_perspective.dazewood_leaves": "Dazewood Leaves",
+      "subtitles.record_wow": "",
       "block.a_whole_new_perspective.subvolite_cluster": "Subvolite Cluster",
-      "block.a_whole_new_perspective.shalamite_block": "Shalamite Block",
+      "block.a_whole_new_perspective.shalamite_block": "Resin Block",
       "item.a_whole_new_perspective.plasma_pistol": "Plasma Pistol",
       "block.a_whole_new_perspective.vividonia_stone": "Vividonia Stone",
       "item.a_whole_new_perspective.ancient_vividonia": "Backward-polarized Subvolite Crystal",
@@ -1335,6 +1422,7 @@
       "block.a_whole_new_perspective.petrified_dazewood_log": "Petrified Dazewood Log",
       "block.a_whole_new_perspective.direction_test": "Direction Test",
       "item.a_whole_new_perspective.subvolite_shard": "Subvolite Shard",
+      "entity.a_whole_new_perspective.ambulatory": "Ambulatory",
       "itemGroup.tabawnp_items": "AWNP Items",
       "block.a_whole_new_perspective.oneiric_grass": "Oneiric Grass",
       "item.a_whole_new_perspective.pulse_turret_projectile": "Pulse Turret Projectile",
@@ -1362,10 +1450,12 @@
       "itemGroup.tabawnp_blocks": "AWNP Blocks",
       "block.a_whole_new_perspective.dazewood_log": "Dazewood Log",
       "item.a_whole_new_perspective.dazed_viper_plant": "Dazed Viper Plant Spawn Egg",
+      "item.a_whole_new_perspective.record_wow.desc": "??? - What Once Was",
       "block.a_whole_new_perspective.retinal_scanner": "Retinal Scanner",
       "block.a_whole_new_perspective.tc_flooring_slab": "Training Course Walkway",
       "item.a_whole_new_perspective.specimen_5_spawn_egg": "Specimen 5 Spawn Egg",
-      "block.a_whole_new_perspective.tc_flooring_stairs": "Training Course Staircase"
+      "block.a_whole_new_perspective.tc_flooring_stairs": "Training Course Staircase",
+      "entity.a_whole_new_perspective.juvenile_treentacle": "Lumivine"
     }
   },
   "workspaceSettings": {
@@ -1381,7 +1471,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Made possible by: MCreator, Zapsplat and myself",
     "modElementsPackage": "com.varahunter.awholenewperspective",
     "lockBaseModFiles": false
   },

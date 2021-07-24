@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "a_whole_new_perspective:blocks/timeportal_frame",
-    "particle": "a_whole_new_perspective:blocks/timeportal_frame"
+    "all": "a_whole_new_perspective:blocks/migrator_resin",
+    "particle": "a_whole_new_perspective:blocks/migrator_resin"
   }
 }

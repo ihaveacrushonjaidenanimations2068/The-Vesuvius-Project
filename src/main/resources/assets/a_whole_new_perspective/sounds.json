@@ -1,4 +1,22 @@
 {
+  "record_wow": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "a_whole_new_perspective:record_whatoncewas",
+        "stream": true
+      }
+    ]
+  },
+  "tape1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "a_whole_new_perspective:tape1",
+        "stream": false
+      }
+    ]
+  },
   "entity.specimanfive.idle": {
     "category": "master",
     "subtitle": "subtitles.entity.specimanfive.idle",
